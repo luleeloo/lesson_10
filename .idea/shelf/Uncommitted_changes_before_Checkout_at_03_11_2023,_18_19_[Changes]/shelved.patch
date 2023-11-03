@@ -1,0 +1,16 @@
+Index: main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># task1: валідація; домашній номер телефону (тільки цифри та довжина номера)\n# import re\n#\n#\n# def validate_home_phone(phone_number):\n#\n#     pattern = r'^\\d{7,13}$'\n#\n#     if re.match(pattern, phone_number):\n#         return True\n#     else:\n#         return False\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/main.py b/main.py
+--- a/main.py	
++++ b/main.py	
+@@ -10,3 +10,5 @@
+ #         return True
+ #     else:
+ #         return False
++
++
