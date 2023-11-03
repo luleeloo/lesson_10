@@ -1,16 +1,12 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+# task1: валідація; домашній номер телефону (тільки цифри та довжина номера)
+# import re
+#
+#
+# def validate_home_phone(phone_number):
+#
+#     pattern = r'^\d{7,13}$'
+#
+#     if re.match(pattern, phone_number):
+#         return True
+#     else:
+#         return False
