@@ -23,6 +23,7 @@
 #         return True
 #     else:
 #         return False
+#
 # task3: валідація; email (наявність @, домену: gmail.com наприклад, мінімальна довжина та максимальна на ваш вибір)
 #
 # import re
@@ -36,4 +37,20 @@
 #         return True
 #     else:
 #         return False
+#
+#
+# task4: валідація; ПІБ клієнта (3 слова, мінімальна довжина 2 символи, максимальна довжина 20)
+#
+# import re
+#
+#
+# def validate_full_name(full_name):
+#
+#     pattern = r"^[A-Za-zА-Яа-яЁёІіЇїЄєҐґ-]{2,20}\s[A-Za-zА-Яа-яЁёІіЇїЄєҐґ-]{2,20}\s[A-Za-zА-Яа-яЁёІіЇїЄєҐґ-]{2,20}$"
+#
+#     if re.match(pattern, full_name):
+#         return "Все вірно!"
+#     else:
+#         return "Неправильний формат ПІБ"
+#
 #
